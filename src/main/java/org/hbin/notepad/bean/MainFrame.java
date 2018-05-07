@@ -89,7 +89,7 @@ public class MainFrame extends JFrame {
 	 */
 	public void setWindowIcon()
 	{
-		ImageIcon imageIcon = new ImageIcon(getClass().getResource("/images/logo.png"));
+		ImageIcon imageIcon = new ImageIcon(getClass().getResource("/images/logo2.png"));
 		this.setIconImage(imageIcon.getImage());
 	}
 	
