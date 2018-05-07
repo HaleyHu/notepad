@@ -208,8 +208,6 @@ public class MainFrame extends JFrame {
 					if(e.getY() + popup.getHeight() + 65 > MainFrame.this.getHeight()) {
 						y = MainFrame.this.getHeight() - popup.getHeight() - 45;
 					}
-					System.out.println(MainFrame.this.getWidth() + "," + MainFrame.this.getHeight()
-					+ "\t" + e.getX() + "," + e.getY() + "\t" + x + "," + y);
 					popup.show(MainFrame.this, x , y);
 				}
 			}
