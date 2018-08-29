@@ -27,8 +27,10 @@
 
 + 部分菜单截图
 
-![菜单1](screenshot/menu_edit.png)
-![菜单2](screenshot/menu_file.png)
-![菜单3](screenshot/menu_help.png)
+文件菜单：![菜单2](screenshot/menu_file.png)
+
+编辑菜单：![菜单1](screenshot/menu_edit.png)
+
+关于菜单：![菜单3](screenshot/menu_help.png)
 
 更多精彩内容，等您来发现哟 ~ 
