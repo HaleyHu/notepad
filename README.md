@@ -17,3 +17,19 @@
 > 已实现状态栏显示光标行列信息功能，已实现显示行号、全屏功能。
 
 欢迎大家下载、体验，随时欢迎各位与我沟通、交流。Email: cn.binbin@qq.com
+
+部分截图如下：
++ 主窗口截图
+![主窗口](screenshot/notepad.png)
+
++ 关于截图
+![关于](/screenshot/about.png)
+
++ 部分菜单截图
+![菜单1](screenshot/menu_edit.png)
+
+![菜单2](screenshot/menu_file.png)
+
+![菜单3](screenshot/menu_help.png)
+
+更多精彩内容，等您来发现哟 ~ 
