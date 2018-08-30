@@ -9,7 +9,7 @@ import java.awt.Rectangle;
 public class LineNumberHeaderView extends javax.swing.JComponent {
 	private static final long serialVersionUID = -4125299452393142339L;
 	
-	private final  Font DEFAULT_FONT = new Font(Font.MONOSPACED, Font.PLAIN, 11);
+	private final Font DEFAULT_FONT = new Font(Font.MONOSPACED, Font.PLAIN, 12);
     public final Color DEFAULT_BACKGROUD = new Color(228, 228, 228);
     public final Color DEFAULT_FOREGROUD = Color.BLACK;
     public final int nHEIGHT = Integer.MAX_VALUE - 1000000;
@@ -60,7 +60,7 @@ public class LineNumberHeaderView extends javax.swing.JComponent {
 
     @Override
     protected void paintComponent(Graphics g) {
-        int nlineHeight = getLineHeight();
+        int nlineHeight = getLineHeight() + 2;
         int startOffset = getStartOffset();
         Rectangle drawHere = g.getClipBounds();
         g.setColor(getBackground());
